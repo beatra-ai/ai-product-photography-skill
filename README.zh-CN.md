@@ -14,6 +14,10 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="一张杂乱厨房台面上的手机随手拍（虚构品牌 OLUNEA 玫瑰果面部精华油，这张输入图本身也是为演示 AI 生成的），被转成白底棚拍商品主图，标签文字和瓶身形状保持不变。由 Beatra AI 生成。"></p>
+
+*一张杂乱厨房台面上的手机随手拍（虚构品牌 OLUNEA 玫瑰果面部精华油，这张输入图本身也是为演示 AI 生成的），被转成白底棚拍商品主图，标签文字和瓶身形状保持不变。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.0 |
@@ -40,6 +44,18 @@ gh skill install beatra-ai/ai-product-photography-skill product-photo-studio
 
 ```text
 从 https://github.com/beatra-ai/ai-product-photography-skill 安装 product-photo-studio skill（目录 skills/product-photo-studio），然后按它的 SKILL.md 连接我的 Beatra 账号。
+```
+
+## 效果示例
+
+<p align="center"><img src="assets/demo-2.webp" width="800" alt="把手机随手拍里的同一瓶 OLUNEA 放进大理石浴室台面的生活场景，窗边柔光，标签与瓶形与原图一致。由 Beatra AI 生成。"></p>
+
+*把手机随手拍里的同一瓶 OLUNEA 放进大理石浴室台面的生活场景，窗边柔光，标签与瓶形与原图一致。由 Beatra AI 生成。*
+
+提示词：
+
+```text
+Professional lifestyle product photo for social media. Image 1 is the product reference: the dropper bottle standing on the counter. Match its shape, color, label, label text, and proportions closely, and keep the label text exactly as it appears in Image 1. Leave out the kitchen counter and all other objects from Image 1. Place only the bottle upright on a white marble bathroom vanity, facing the camera, slightly right of center, with a folded linen hand towel and a small sprig of dried rose hips softly out of focus in the background, smaller than the bottle. Soft diffused window light from the left, warm neutral color temperature, gentle highlight on the glass, shallow depth of field with the bottle sharp and the background soft, natural contact shadow falling to the right, clean product edges, consistent lighting direction, no halo or fringe. No added text, logos, or watermarks.
 ```
 
 ## 你能得到什么

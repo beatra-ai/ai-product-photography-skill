@@ -14,6 +14,10 @@ Turn a real product photo into studio-quality ecommerce images and lifestyle sce
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="A cluttered kitchen-counter phone snapshot of a fictional rosehip face oil, OLUNEA (itself AI-generated as the demo input), turned into a white-background studio listing image with the label text and bottle shape unchanged. AI-generated with Beatra."></p>
+
+*A cluttered kitchen-counter phone snapshot of a fictional rosehip face oil, OLUNEA (itself AI-generated as the demo input), turned into a white-background studio listing image with the label text and bottle shape unchanged. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.0 |
@@ -41,6 +45,18 @@ Or paste this into your agent:
 
 ```text
 Install the product-photo-studio skill from https://github.com/beatra-ai/ai-product-photography-skill (folder skills/product-photo-studio), then follow its SKILL.md to connect my Beatra account.
+```
+
+## Examples
+
+<p align="center"><img src="assets/demo-2.webp" width="800" alt="The same OLUNEA bottle from the phone snapshot placed in a marble bathroom-vanity lifestyle scene with soft window light, label and shape kept as in the source. AI-generated with Beatra."></p>
+
+*The same OLUNEA bottle from the phone snapshot placed in a marble bathroom-vanity lifestyle scene with soft window light, label and shape kept as in the source. AI-generated with Beatra.*
+
+Prompt:
+
+```text
+Professional lifestyle product photo for social media. Image 1 is the product reference: the dropper bottle standing on the counter. Match its shape, color, label, label text, and proportions closely, and keep the label text exactly as it appears in Image 1. Leave out the kitchen counter and all other objects from Image 1. Place only the bottle upright on a white marble bathroom vanity, facing the camera, slightly right of center, with a folded linen hand towel and a small sprig of dried rose hips softly out of focus in the background, smaller than the bottle. Soft diffused window light from the left, warm neutral color temperature, gentle highlight on the glass, shallow depth of field with the bottle sharp and the background soft, natural contact shadow falling to the right, clean product edges, consistent lighting direction, no halo or fringe. No added text, logos, or watermarks.
 ```
 
 ## What you get
