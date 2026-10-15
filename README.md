@@ -20,7 +20,7 @@ Turn a real product photo into studio-quality ecommerce images and lifestyle sce
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.3 |
+| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.6 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/product-photo-studio). Report issues there.
 
@@ -90,12 +90,12 @@ Yes. Describe the desired setting—a kitchen counter, wooden table, bathroom sh
 
 Yes. Use the selected image as the base and name the reflection, shadow, edge, color, or small defect that needs a focused adjustment.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update product-photo-studio` or `gh skill update product-photo-studio`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
