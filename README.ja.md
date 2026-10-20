@@ -7,7 +7,7 @@
 実際の商品写真から、EC 向けのスタジオ写真とライフスタイルシーンを作成。Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw のどれからでもそのまま使えます。
 
 > [!IMPORTANT]
-> 生成には [Beatra](https://beatra.ai) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
+> 生成には [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill) アカウントが必要で、クレジットを消費します。スキル自体のインストールは無料です。
 
 | 項目 | 内容 |
 | --- | --- |
@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.8 |
+| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.9 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/product-photo-studio) から自動的に公開されています。問題の報告はそちらへお願いします。
 
@@ -122,7 +122,7 @@ Professional lifestyle product photo for social media. Image 1 is the product re
 
 ## リンク
 
-- ウェブサイト — https://beatra.ai
-- ドキュメント — https://docs.beatra.ai
+- ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill
+- ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill
 - コンソール — https://console.beatra.ai
 - AI エージェント向け — https://beatra.ai/llms.txt（インデックス）· https://beatra.ai/llms-full.txt（全スキルを 1 ファイルに）

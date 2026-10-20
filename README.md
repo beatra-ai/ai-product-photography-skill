@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 Turn a real product photo into studio-quality ecommerce images and lifestyle scenes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
-> Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
+> Rendering needs a [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill) account and uses credits. The skill itself is free to install.
 
 | Question | Answer |
 | --- | --- |
@@ -23,7 +23,7 @@ Turn a real product photo into studio-quality ecommerce images and lifestyle sce
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.8 |
+| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.9 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/product-photo-studio). Report issues there.
 
@@ -136,7 +136,7 @@ ClawHub.
 
 ## Links
 
-- Website — https://beatra.ai
-- Docs — https://docs.beatra.ai
+- Website — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill
+- Docs — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill
 - Console — https://console.beatra.ai
 - For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
