@@ -1,6 +1,8 @@
 # AI Product Photography Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [Ecommerce Product Images Skill](https://github.com/beatra-ai/ecommerce-product-images-skill)
 
 把真实商品照片变成影棚级电商主图和场景图，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
@@ -52,6 +54,12 @@ gh skill install beatra-ai/ai-product-photography-skill product-photo-studio
 <p align="center"><img src="assets/demo-2.webp" width="800" alt="把手机随手拍里的同一瓶 OLUNEA 放进大理石浴室台面的生活场景，窗边柔光，标签与瓶形与原图一致。由 Beatra AI 生成。"></p>
 
 *把手机随手拍里的同一瓶 OLUNEA 放进大理石浴室台面的生活场景，窗边柔光，标签与瓶形与原图一致。由 Beatra AI 生成。*
+
+在你的 Agent 里这样说：
+
+```text
+以 ./olunea-counter.jpg 为商品参考，把这瓶滴管精华放到有柔和窗光的大理石浴室台面上，做一张社交媒体用的场景图。标签文字、瓶形和颜色要和原照片完全一致。
+```
 
 提示词：
 

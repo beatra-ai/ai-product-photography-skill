@@ -1,6 +1,8 @@
 # AI Product Photography Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [Ecommerce Product Images Skill](https://github.com/beatra-ai/ecommerce-product-images-skill)
 
 Turn a real product photo into studio-quality ecommerce images and lifestyle scenes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
@@ -54,6 +56,12 @@ Install the product-photo-studio skill from https://github.com/beatra-ai/ai-prod
 <p align="center"><img src="assets/demo-2.webp" width="800" alt="The same OLUNEA bottle from the phone snapshot placed in a marble bathroom-vanity lifestyle scene with soft window light, label and shape kept as in the source. AI-generated with Beatra."></p>
 
 *The same OLUNEA bottle from the phone snapshot placed in a marble bathroom-vanity lifestyle scene with soft window light, label and shape kept as in the source. AI-generated with Beatra.*
+
+Ask your agent:
+
+```text
+Using ./olunea-counter.jpg as the product reference, place the same dropper bottle on a marble bathroom vanity with soft window light for a social post. Keep the label text, shape and color exactly as in the photo.
+```
 
 Prompt:
 
