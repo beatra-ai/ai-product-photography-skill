@@ -4,7 +4,7 @@
 
 > 👉 也看看 [Ecommerce Product Images Skill](https://github.com/beatra-ai/ecommerce-product-images-skill)
 
-把真实商品照片变成影棚级电商主图和场景图，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
+把真实商品照片变成电商棚拍图和场景图，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 
 > [!IMPORTANT]
 > 生成需要 [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill) 账号并消耗积分，安装本身不收费。

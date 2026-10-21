@@ -4,7 +4,7 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 
 > 👉 See also [Ecommerce Product Images Skill](https://github.com/beatra-ai/ecommerce-product-images-skill)
 
-Turn a real product photo into studio-quality ecommerce images and lifestyle scenes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
+Turn a real product photo into ecommerce studio photos and lifestyle scenes, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
 > Rendering needs a [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill) account and uses credits. The skill itself is free to install.
