@@ -23,7 +23,7 @@ Turn a real product photo into ecommerce studio photos and lifestyle scenes, fro
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.2.9 |
+| [`product-photo-studio`](skills/product-photo-studio) | [SKILL.md](skills/product-photo-studio/SKILL.md) | 0.3.1 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/product-photo-studio). Report issues there.
 
