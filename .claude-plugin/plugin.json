@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "product-photo-studio",
+  "displayName": "AI Product Photography",
+  "version": "0.3.1",
+  "description": "Transform a real product photo into a studio-quality ecommerce image, lifestyle scene, or marketplace-ready hero shot with clean backgrounds, professional lighting, and composition guided by confirmed product details.",
+  "author": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "homepage": "https://beatra.ai/skills/product-photo-studio",
+  "repository": "https://github.com/beatra-ai/ai-product-photography-skill",
+  "license": "MIT-0",
+  "icon": "./assets/icon.png"
+}

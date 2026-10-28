@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/ai-product-photography-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/ai-product-photography-skill
+claude plugin install product-photo-studio@ai-product-photography-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/ai-product-photography-skill
+codex plugin add product-photo-studio@ai-product-photography-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-product-photography-skill
+copilot plugin install product-photo-studio@ai-product-photography-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-product-photography-skill
+```
+
 With the GitHub CLI:
 
 ```bash

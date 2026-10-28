@@ -35,6 +35,33 @@
 npx skills add beatra-ai/ai-product-photography-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-product-photography-skill
+claude plugin install product-photo-studio@ai-product-photography-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-product-photography-skill
+codex plugin add product-photo-studio@ai-product-photography-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-product-photography-skill
+copilot plugin install product-photo-studio@ai-product-photography-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-product-photography-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
