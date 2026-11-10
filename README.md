@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-product-photography-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-product-photography-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -95,6 +101,13 @@ Prompt:
 ```text
 Professional lifestyle product photo for social media. Image 1 is the product reference: the dropper bottle standing on the counter. Match its shape, color, label, label text, and proportions closely, and keep the label text exactly as it appears in Image 1. Leave out the kitchen counter and all other objects from Image 1. Place only the bottle upright on a white marble bathroom vanity, facing the camera, slightly right of center, with a folded linen hand towel and a small sprig of dried rose hips softly out of focus in the background, smaller than the bottle. Soft diffused window light from the left, warm neutral color temperature, gentle highlight on the glass, shallow depth of field with the bottle sharp and the background soft, natural contact shadow falling to the right, clean product edges, consistent lighting direction, no halo or fringe. No added text, logos, or watermarks.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Image — A real product photo, or several references | JPG, PNG | up to 4 images per request |
+| **Output** | Image — White-background main image, lifestyle scene, or studio ad visual | — | 2K; aspect ratios 1:1, 4:3, 16:9 |
 
 ## Technical Specifications & Output Limits
 
@@ -134,19 +147,19 @@ As of 2026-10-18. Live list: https://docs.beatra.ai/en/docs/models
 
 ### How do source details guide the new image?
 
-The source photo and confirmed shape, color, label, proportions, materials, and included pieces become the visual reference for the new background and lighting.
+The source photo and the shape, color, label, proportions, materials, and included pieces you name become the visual reference for the new background and lighting.
 
 ### Can I create clean white-background listing images?
 
-Yes. Share the target marketplace and its current image guidance, then choose a clean white background, even studio lighting, and suitable product framing.
+Yes. Name the target marketplace and its current image guidance, and you get a clean white-background image with even studio lighting and product framing that fits it.
 
 ### Can I place my product in a lifestyle scene?
 
 Yes. Describe the desired setting—a kitchen counter, wooden table, bathroom shelf, or seasonal backdrop—and the product is placed in that scene with matching lighting and natural shadow.
 
-### Can I refine a specific area of a selected photo?
+### Can I refine one area of a finished image?
 
-Yes. Use the selected image as the base and name the reflection, shadow, edge, color, or small defect that needs a focused adjustment.
+Yes. Use the image as the base and name the reflection, shadow, edge, color, or small defect that needs a focused adjustment.
 
 ## Updates and security
 
@@ -157,9 +170,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill).
 
 ## Links
 

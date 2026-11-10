@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-product-photography-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-product-photography-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -94,6 +100,13 @@ https://github.com/beatra-ai/ai-product-photography-skill から product-photo-s
 Professional lifestyle product photo for social media. Image 1 is the product reference: the dropper bottle standing on the counter. Match its shape, color, label, label text, and proportions closely, and keep the label text exactly as it appears in Image 1. Leave out the kitchen counter and all other objects from Image 1. Place only the bottle upright on a white marble bathroom vanity, facing the camera, slightly right of center, with a folded linen hand towel and a small sprig of dried rose hips softly out of focus in the background, smaller than the bottle. Soft diffused window light from the left, warm neutral color temperature, gentle highlight on the glass, shallow depth of field with the bottle sharp and the background soft, natural contact shadow falling to the right, clean product edges, consistent lighting direction, no halo or fringe. No added text, logos, or watermarks.
 ```
 
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 画像：実際の製品写真1枚、または複数の参考画像 | JPG、PNG | 1 リクエストあたり最大 4 枚 |
+| **出力** | 画像：白背景のメイン画像、ライフスタイルシーン、スタジオ広告画像 | — | 2K／アスペクト比 1:1、4:3、16:9 |
+
 ## 技術仕様と出力上限
 
 2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
@@ -123,19 +136,19 @@ Professional lifestyle product photo for social media. Image 1 is the product re
 
 ### 元の商品ディテールはどのように新しい画像へ反映されますか？
 
-元写真で確認した形状、色、ラベル、比率、素材、付属品を、新しい背景と照明のビジュアルリファレンスとして使います。
+元の写真と、伝えた形、色、ラベル、比率、素材、付属品が、新しい背景と照明の手本になります。
 
 ### クリーンな白背景の商品画像は作れますか？
 
-はい。掲載先と現在の画像ガイドを共有し、クリーンな白背景、均一なスタジオ照明、商品に合うフレーミングを指定できます。
+はい。掲載先と現在の画像ガイドを伝えると、クリーンな白背景、均一なスタジオ照明、商品に合うフレーミングの画像を作ります。
 
 ### 製品をライフスタイルシーンに配置できますか？
 
 はい。希望するシーン（キッチンカウンター、ウッドテーブル、バスルームシェルフ、季節の背景）をお伝えすると、製品がそのシーンに配置され、マッチする照明と自然なシャドウが追加されます。
 
-### 選んだ画像の一部を重点的に調整できますか？
+### 仕上がった画像の一部を重点的に調整できますか？
 
-はい。選んだ画像をベースに、反射、影、エッジ、色、小さな傷など、調整したい箇所を指定できます。
+はい。仕上がった画像をベースに、反射、影、エッジ、色、小さな傷など、調整したい箇所を指定できます。
 
 ## 更新とセキュリティ
 
@@ -145,7 +158,9 @@ Professional lifestyle product photo for social media. Image 1 is the product re
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill)が適用されます。
 
 ## リンク
 

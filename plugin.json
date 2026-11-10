@@ -10,6 +10,20 @@
   "homepage": "https://beatra.ai/skills/product-photo-studio",
   "repository": "https://github.com/beatra-ai/ai-product-photography-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI product photography",
+    "product photo editor",
+    "product image background",
+    "ecommerce product photo",
+    "product photo background remover",
+    "AI product shoot",
+    "white background product photo",
+    "lifestyle product photography",
+    "product hero image",
+    "amazon product image",
+    "product photo studio",
+    "product listing photo"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +33,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/product-photo-studio",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Product Photo Studio to turn a snap of my handmade candle into a white-background main image and a wooden-table scene."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

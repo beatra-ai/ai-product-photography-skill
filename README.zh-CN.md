@@ -62,6 +62,12 @@ copilot plugin install product-photo-studio@ai-product-photography-skill
 gemini extensions install https://github.com/beatra-ai/ai-product-photography-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-product-photography-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -93,6 +99,13 @@ gh skill install beatra-ai/ai-product-photography-skill product-photo-studio
 ```text
 Professional lifestyle product photo for social media. Image 1 is the product reference: the dropper bottle standing on the counter. Match its shape, color, label, label text, and proportions closely, and keep the label text exactly as it appears in Image 1. Leave out the kitchen counter and all other objects from Image 1. Place only the bottle upright on a white marble bathroom vanity, facing the camera, slightly right of center, with a folded linen hand towel and a small sprig of dried rose hips softly out of focus in the background, smaller than the bottle. Soft diffused window light from the left, warm neutral color temperature, gentle highlight on the glass, shallow depth of field with the bottle sharp and the background soft, natural contact shadow falling to the right, clean product edges, consistent lighting direction, no halo or fringe. No added text, logos, or watermarks.
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 图片：一张真实产品照片，或几张参考图 | JPG、PNG | 单次最多 4 张 |
+| **输出** | 图片：白底主图、生活场景图或影棚广告图 | — | 2K；画幅 1:1、4:3、16:9 |
 
 ## 技术规格与输出限制
 
@@ -132,19 +145,19 @@ Professional lifestyle product photo for social media. Image 1 is the product re
 
 ### 商品原图如何引导新图片？
 
-原图以及已确认的形状、颜色、标签、比例、材质和包装内容，会成为新背景与光效的视觉参考。
+原图以及你说明的形状、颜色、标签、比例、材质和包装内容，会成为新背景与光效的视觉参考。
 
 ### 能制作干净的白底上架图吗？
 
-可以。提供目标平台及其当前图片指引，再选择干净白底、均匀影棚光效和合适的商品构图。
+可以。告诉我目标平台和它当前的图片指引，就能拿到干净白底、均匀影棚光效、构图合适的上架图。
 
 ### 能把产品放到生活场景里吗？
 
 可以。描述期望的场景——厨房台面、木桌、浴室置物架或季节背景——产品就会被放入该场景，搭配一致光效和自然阴影。
 
-### 能精修选定图片的某个区域吗？
+### 能精修图片的某个区域吗？
 
-可以。以选定图片为基础，说明需要聚焦调整的反光、阴影、边缘、色彩或小瑕疵。
+可以。以这张图为基础，说明需要聚焦调整的反光、阴影、边缘、色彩或小瑕疵。
 
 ## 更新与安全
 
@@ -154,7 +167,9 @@ Professional lifestyle product photo for social media. Image 1 is the product re
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-product-photography-skill)。
 
 ## 相关链接
 
